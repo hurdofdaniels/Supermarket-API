@@ -30,6 +30,15 @@ Some supermarkets have API and some call a database onload, so it will use Beaut
 
 * Online Shop URL: [https://www.paknsaveonline.co.nz/](https://www.paknsaveonline.co.nz/)
 
+### New World:
+* Type: Database
+* URL: [https://www.ishopnewworld.co.nz/Search?q=sauce](https://www.ishopnewworld.co.nz/Search?q=sauce)
+ * Params:
+ 
+> Q (Query): Item (Sauce is currently searched)
+
+* Online Shop URL: [https://www.ishopnewworld.co.nz/](https://www.ishopnewworld.co.nz/)
+
 ### FreshChoice:
 * Type: Database
 * URL: [https://barrington.store.freshchoice.co.nz/search?q=sauce](https://barrington.store.freshchoice.co.nz/search?q=sauce)
