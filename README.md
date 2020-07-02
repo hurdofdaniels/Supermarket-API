@@ -36,6 +36,7 @@ Some supermarkets have API and some call a database onload, so it will use Beaut
  * Params:
 
 > The store (Not really a param): The store location (Barrington is currently chosen)
+
 > Q (Query): Item (Sauce is currently searched)
 
 * Online Shop URL: [https://barrington.store.freshchoice.co.nz/](https://barrington.store.freshchoice.co.nz/)
