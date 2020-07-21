@@ -1,3 +1,3 @@
 import API
 
-API.getCountdownData("test")
+API.getMultiData("Sauce", API.Shops.All)

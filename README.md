@@ -11,14 +11,15 @@ Some supermarkets have API and some call a database onload, so it will use Beaut
 
 ## Notes:
 ### Countdown:
-* Type: API
-* URL: [https://shop.countdown.co.nz/api/v1/products?target=search&search=sauce&search_type=ShopOnline](https://shop.countdown.co.nz/api/v1/products?target=search&search=sauce&search_type=ShopOnline)
+* Type: Database (Countdown has a closed API, In the future I will try to find a way to access it)
+* URL: [https://shop.countdown.co.nz/shop/searchproducts?search=Sauce&search_type=ShopOnline](https://shop.countdown.co.nz/shop/searchproducts?search=Sauce&search_type=ShopOnline)
  * Params:
 > Target: search (Default)
 
 > Search: Item (Sauce is currently searched)
 
 > Search_Type: ShopOnline (Default)
+
 * Online Shop URL: [https://shop.countdown.co.nz/](https://shop.countdown.co.nz/)
 
 ### Pak N Save:
