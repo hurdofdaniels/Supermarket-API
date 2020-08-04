@@ -28,6 +28,7 @@ def getMultiData(QUERY, SHOP):
 def getCountdownData(QUERY):
 	print(QUERY)
 	RES = requests.get(url="https://shop.countdown.co.nz/shop/searchproducts?search={}&search_type=ShopOnline".format(QUERY))
+	print(RES.text)
 	soup = BeautifulSoup(RES.text, 'html.parser')
 	print(soup.find_all("product-stamp", {'class', 'ng-tns-c167-2'}))
 
@@ -35,6 +36,7 @@ def getPakNSaveData(QUERY):
 	print(QUERY)
 	RES = requests.get(url="https://www.paknsaveonline.co.nz/Search?q={}".format(QUERY))
 	soup = BeautifulSoup(RES.text, 'html.parser')
+	print(soup.find_all("a", {'class', 'fs-product-card__details u-color-black u-no-text-decoration u-cursor'}))
 
 def getNewWorldData(QUERY):
 	print(QUERY)

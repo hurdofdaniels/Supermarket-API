@@ -1,3 +1,3 @@
 import API
 
-API.getMultiData("Sauce", API.Shops.All)
+API.getMultiData("chocolate", API.Shops.PakNSave)
