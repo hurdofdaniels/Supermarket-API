@@ -5,4 +5,4 @@ if len(sys.argv) <= 1:
 else:
 	query = sys.argv[1]
 
-API.getMultiData(query, API.Shops.PakNSave)
+API.getMultiData(query, API.Shops.Countdown)
