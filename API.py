@@ -36,7 +36,7 @@ def getPakNSaveData(QUERY):
 	print(QUERY)
 	RES = requests.get(url="https://www.paknsaveonline.co.nz/Search?q={}".format(QUERY))
 	soup = BeautifulSoup(RES.text, 'html.parser')
-	print(soup.find_all("a", {'class', 'fs-product-card__details u-color-black u-no-text-decoration u-cursor'}))
+	print(soup.find_all("div", {'class', 'js-product-card-footer fs-product-card__footer-container'}))
 
 def getNewWorldData(QUERY):
 	print(QUERY)
